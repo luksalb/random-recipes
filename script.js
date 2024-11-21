@@ -31,7 +31,7 @@ function getQuotes() {
       Accept: 'application/json'
     },
     url:
-      'https://raw.githubusercontent.com/luksalb/random-recipes/refs/heads/main/recipes-json/quotes.json',
+      'https://raw.githubusercontent.com/luksalb/random-recipes/refs/heads/main/recipes-json/recipes.json',
     success: function (jsonQuotes) {
       if (typeof jsonQuotes === 'string') {
         quotesData = JSON.parse(jsonQuotes);
